@@ -1,5 +1,5 @@
 # SNEK Equinox
- I would like to thank Nightmare-Eclipse for the inspiration (not personal) from the project UnDefend - https://gitlab.com/nightmare-eclipse/un-defend:
+ I would like to thank Nightmare-Eclipse for the inspiration (not personal) from the project UnDefend - https://web.archive.org/web/20260521145157/https://github.com/Nightmare-Eclipse/UnDefend:
  > Now funnily enough, I found a way to lie to the EDR web console to show that defender is up and running with the latest update even if it's not. I was thinking about publishing the code but after thinking about it, it will cause waaay too much damage so I think I'll keep that stuff stashed for now.
 
 \- Nightmare-Eclipse
