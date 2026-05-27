@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <Windows.h>
 #include <stdio.h>
+#include <time.h>
 #pragma comment(lib,"advapi32.lib")
 
 DWORD SetVer(const wchar_t* v) {
@@ -43,7 +44,7 @@ DWORD SetASigV(const wchar_t* v) {
 }
 
 DWORD SpfV() {
-	DWORD nt = GetTickCount() / 1000;
+	DWORD nt = (DWORD)time(NULL);
 	SetVer(L"1.1.19400.10");
 	SetPltf(L"4.18.2306.1024");
 	SetLstU(nt);
