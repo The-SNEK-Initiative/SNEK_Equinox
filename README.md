@@ -4,6 +4,8 @@
 
 \- Nightmare-Eclipse
 
+### You might have to edit the build file to run correctly on your machine, its not universal, duh
+
 ## So what do we have here??
 
 Its PoC implementation that in theory demonstrates telemetry spoofing against Windows Defender EDR. It attempts to demonstrate a TOCTOU race condition attack on the defender signature update mechanism. It should make the console display a protected status, while protection is disabled.
